@@ -30,7 +30,16 @@ class ViewController: UIViewController {
 
     @IBAction func generateTapped(sender : AnyObject) {
         let ssid = ((ssidTextField.text != nil) && (!ssidTextField.text.isEmpty)) ? ssidTextField.text : ssidTextField.placeholder
-        qrImageView.image = model.generateQRCode(ssid, password: pwdTextField.text)
+
+        let qrCodeImage = model.generateQRCode(ssid, password: pwdTextField.text)
+        let scaleX = qrImageView.frame.size.width / qrCodeImage.extent().size.width
+        let scaleY = qrImageView.frame.size.height / qrCodeImage.extent().size.height
+        
+        let transformedImage = qrCodeImage.imageByApplyingTransform(CGAffineTransformMakeScale(scaleX, scaleY))
+        
+        qrImageView.image = UIImage(CIImage: transformedImage)
+        
+        
         self.view.endEditing(true)
     }
 

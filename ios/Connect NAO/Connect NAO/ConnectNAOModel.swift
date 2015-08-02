@@ -36,26 +36,15 @@ class ConnectNAOModel
         }
     }
     
-    func generateQRCode(ssid : String, password : String) -> UIImage
+    func generateQRCode(ssid : String, password : String) -> CIImage
     {
-        let textData = (ssid + ":" + password).dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
+        let data = (ssid + ":" + password).dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
         let filter = CIFilter(name: "CIQRCodeGenerator")
-        filter.setValue(textData, forKey: "inputMessage")
-        filter.setValue("H", forKey: "inputCorrectionLevel") // error-correction level: H=30%, Q=25%, M=15% (default), L=7%
         
-        let cgImage = CIContext(options:nil).createCGImage(filter.outputImage, fromRect: filter.outputImage.extent())
-        // Now we'll rescale using CoreGraphics
-        UIGraphicsBeginImageContext(CGSizeMake(350, 350));
-        let context = UIGraphicsGetCurrentContext()
-        // We don't want to interpolate (since we've got a pixel-correct image)
-        CGContextSetInterpolationQuality(context, kCGInterpolationNone);
-        CGContextDrawImage(context, CGContextGetClipBoundingBox(context), cgImage);
-        // Get the image out
-        let scaledImage = UIGraphicsGetImageFromCurrentImageContext();
-        // Tidy up
-        UIGraphicsEndImageContext();
+        filter.setValue(data, forKey: "inputMessage")
+        filter.setValue("Q", forKey: "inputCorrectionLevel")
         
-        return scaledImage!
-
+        let qrCodeImage = filter.outputImage
+        return qrCodeImage
     }
 }

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1057E11B6E8B3600BDCD31 /* NAOBUTTON.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1057E01B6E8B3600BDCD31 /* NAOBUTTON.png */; };
 		1B8013171B16512A0066B561 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8013161B16512A0066B561 /* NavigationViewController.swift */; };
-		1B80131B1B1670290066B561 /* NAOBUTTON.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80131A1B1670290066B561 /* NAOBUTTON.png */; };
 		1B850B491ADC6F22009E5CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B850B481ADC6F22009E5CA8 /* AppDelegate.swift */; };
 		1B850B4B1ADC6F22009E5CA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B850B4A1ADC6F22009E5CA8 /* ViewController.swift */; };
 		1B850B4E1ADC6F22009E5CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B850B4C1ADC6F22009E5CA8 /* Main.storyboard */; };
@@ -29,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B1057E01B6E8B3600BDCD31 /* NAOBUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NAOBUTTON.png; sourceTree = "<group>"; };
 		1B8013161B16512A0066B561 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
-		1B80131A1B1670290066B561 /* NAOBUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NAOBUTTON.png; path = ../../../Downloads/NAOBUTTON.png; sourceTree = "<group>"; };
 		1B850B431ADC6F22009E5CA8 /* Connect NAO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connect NAO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B850B471ADC6F22009E5CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B850B481ADC6F22009E5CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		1B850B461ADC6F22009E5CA8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B80131A1B1670290066B561 /* NAOBUTTON.png */,
+				1B1057E01B6E8B3600BDCD31 /* NAOBUTTON.png */,
 				1B850B471ADC6F22009E5CA8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -204,7 +204,7 @@
 			files = (
 				1B850B4E1ADC6F22009E5CA8 /* Main.storyboard in Resources */,
 				1B850B531ADC6F22009E5CA8 /* LaunchScreen.xib in Resources */,
-				1B80131B1B1670290066B561 /* NAOBUTTON.png in Resources */,
+				1B1057E11B6E8B3600BDCD31 /* NAOBUTTON.png in Resources */,
 				1B850B501ADC6F22009E5CA8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
