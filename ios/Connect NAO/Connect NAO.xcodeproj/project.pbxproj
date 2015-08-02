@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B8013171B16512A0066B561 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8013161B16512A0066B561 /* NavigationViewController.swift */; };
+		1B80131B1B1670290066B561 /* NAOBUTTON.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80131A1B1670290066B561 /* NAOBUTTON.png */; };
+		1B850B491ADC6F22009E5CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B850B481ADC6F22009E5CA8 /* AppDelegate.swift */; };
+		1B850B4B1ADC6F22009E5CA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B850B4A1ADC6F22009E5CA8 /* ViewController.swift */; };
+		1B850B4E1ADC6F22009E5CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B850B4C1ADC6F22009E5CA8 /* Main.storyboard */; };
+		1B850B501ADC6F22009E5CA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B850B4F1ADC6F22009E5CA8 /* Images.xcassets */; };
+		1B850B531ADC6F22009E5CA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B850B511ADC6F22009E5CA8 /* LaunchScreen.xib */; };
+		1B850B5F1ADC6F22009E5CA8 /* Connect_NAOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B850B5E1ADC6F22009E5CA8 /* Connect_NAOTests.swift */; };
+		1B850B691ADC743D009E5CA8 /* ConnectNAOModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B850B681ADC743C009E5CA8 /* ConnectNAOModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B850B591ADC6F22009E5CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B850B3B1ADC6F22009E5CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B850B421ADC6F22009E5CA8;
+			remoteInfo = "Connect NAO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B8013161B16512A0066B561 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		1B80131A1B1670290066B561 /* NAOBUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NAOBUTTON.png; path = ../../../Downloads/NAOBUTTON.png; sourceTree = "<group>"; };
+		1B850B431ADC6F22009E5CA8 /* Connect NAO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connect NAO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B850B471ADC6F22009E5CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B850B481ADC6F22009E5CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B850B4A1ADC6F22009E5CA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B850B4D1ADC6F22009E5CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B850B4F1ADC6F22009E5CA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B850B521ADC6F22009E5CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B850B581ADC6F22009E5CA8 /* Connect NAOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connect NAOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B850B5D1ADC6F22009E5CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B850B5E1ADC6F22009E5CA8 /* Connect_NAOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect_NAOTests.swift; sourceTree = "<group>"; };
+		1B850B681ADC743C009E5CA8 /* ConnectNAOModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectNAOModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B850B401ADC6F22009E5CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B850B551ADC6F22009E5CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B850B3A1ADC6F22009E5CA8 = {
+			isa = PBXGroup;
+			children = (
+				1B850B451ADC6F22009E5CA8 /* Connect NAO */,
+				1B850B5B1ADC6F22009E5CA8 /* Connect NAOTests */,
+				1B850B441ADC6F22009E5CA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B850B441ADC6F22009E5CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B850B431ADC6F22009E5CA8 /* Connect NAO.app */,
+				1B850B581ADC6F22009E5CA8 /* Connect NAOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B850B451ADC6F22009E5CA8 /* Connect NAO */ = {
+			isa = PBXGroup;
+			children = (
+				1B850B481ADC6F22009E5CA8 /* AppDelegate.swift */,
+				1B850B4A1ADC6F22009E5CA8 /* ViewController.swift */,
+				1B850B4C1ADC6F22009E5CA8 /* Main.storyboard */,
+				1B8013161B16512A0066B561 /* NavigationViewController.swift */,
+				1B850B681ADC743C009E5CA8 /* ConnectNAOModel.swift */,
+				1B850B4F1ADC6F22009E5CA8 /* Images.xcassets */,
+				1B850B511ADC6F22009E5CA8 /* LaunchScreen.xib */,
+				1B850B461ADC6F22009E5CA8 /* Supporting Files */,
+			);
+			path = "Connect NAO";
+			sourceTree = "<group>";
+		};
+		1B850B461ADC6F22009E5CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B80131A1B1670290066B561 /* NAOBUTTON.png */,
+				1B850B471ADC6F22009E5CA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B850B5B1ADC6F22009E5CA8 /* Connect NAOTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B850B5E1ADC6F22009E5CA8 /* Connect_NAOTests.swift */,
+				1B850B5C1ADC6F22009E5CA8 /* Supporting Files */,
+			);
+			path = "Connect NAOTests";
+			sourceTree = "<group>";
+		};
+		1B850B5C1ADC6F22009E5CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B850B5D1ADC6F22009E5CA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B850B421ADC6F22009E5CA8 /* Connect NAO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B850B621ADC6F22009E5CA8 /* Build configuration list for PBXNativeTarget "Connect NAO" */;
+			buildPhases = (
+				1B850B3F1ADC6F22009E5CA8 /* Sources */,
+				1B850B401ADC6F22009E5CA8 /* Frameworks */,
+				1B850B411ADC6F22009E5CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Connect NAO";
+			productName = "Connect NAO";
+			productReference = 1B850B431ADC6F22009E5CA8 /* Connect NAO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B850B571ADC6F22009E5CA8 /* Connect NAOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B850B651ADC6F22009E5CA8 /* Build configuration list for PBXNativeTarget "Connect NAOTests" */;
+			buildPhases = (
+				1B850B541ADC6F22009E5CA8 /* Sources */,
+				1B850B551ADC6F22009E5CA8 /* Frameworks */,
+				1B850B561ADC6F22009E5CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B850B5A1ADC6F22009E5CA8 /* PBXTargetDependency */,
+			);
+			name = "Connect NAOTests";
+			productName = "Connect NAOTests";
+			productReference = 1B850B581ADC6F22009E5CA8 /* Connect NAOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B850B3B1ADC6F22009E5CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Alan Rushforth";
+				TargetAttributes = {
+					1B850B421ADC6F22009E5CA8 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = Y2M7EM6666;
+					};
+					1B850B571ADC6F22009E5CA8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1B850B421ADC6F22009E5CA8;
+					};
+				};
+			};
+			buildConfigurationList = 1B850B3E1ADC6F22009E5CA8 /* Build configuration list for PBXProject "Connect NAO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B850B3A1ADC6F22009E5CA8;
+			productRefGroup = 1B850B441ADC6F22009E5CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B850B421ADC6F22009E5CA8 /* Connect NAO */,
+				1B850B571ADC6F22009E5CA8 /* Connect NAOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B850B411ADC6F22009E5CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B850B4E1ADC6F22009E5CA8 /* Main.storyboard in Resources */,
+				1B850B531ADC6F22009E5CA8 /* LaunchScreen.xib in Resources */,
+				1B80131B1B1670290066B561 /* NAOBUTTON.png in Resources */,
+				1B850B501ADC6F22009E5CA8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B850B561ADC6F22009E5CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B850B3F1ADC6F22009E5CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8013171B16512A0066B561 /* NavigationViewController.swift in Sources */,
+				1B850B4B1ADC6F22009E5CA8 /* ViewController.swift in Sources */,
+				1B850B491ADC6F22009E5CA8 /* AppDelegate.swift in Sources */,
+				1B850B691ADC743D009E5CA8 /* ConnectNAOModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B850B541ADC6F22009E5CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B850B5F1ADC6F22009E5CA8 /* Connect_NAOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B850B5A1ADC6F22009E5CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B850B421ADC6F22009E5CA8 /* Connect NAO */;
+			targetProxy = 1B850B591ADC6F22009E5CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B850B4C1ADC6F22009E5CA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B850B4D1ADC6F22009E5CA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B850B511ADC6F22009E5CA8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B850B521ADC6F22009E5CA8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B850B601ADC6F22009E5CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B850B611ADC6F22009E5CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B850B631ADC6F22009E5CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Connect NAO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1B850B641ADC6F22009E5CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Connect NAO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1B850B661ADC6F22009E5CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Connect NAOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connect NAO.app/Connect NAO";
+			};
+			name = Debug;
+		};
+		1B850B671ADC6F22009E5CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Connect NAOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connect NAO.app/Connect NAO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B850B3E1ADC6F22009E5CA8 /* Build configuration list for PBXProject "Connect NAO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B850B601ADC6F22009E5CA8 /* Debug */,
+				1B850B611ADC6F22009E5CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B850B621ADC6F22009E5CA8 /* Build configuration list for PBXNativeTarget "Connect NAO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B850B631ADC6F22009E5CA8 /* Debug */,
+				1B850B641ADC6F22009E5CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B850B651ADC6F22009E5CA8 /* Build configuration list for PBXNativeTarget "Connect NAOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B850B661ADC6F22009E5CA8 /* Debug */,
+				1B850B671ADC6F22009E5CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B850B3B1ADC6F22009E5CA8 /* Project object */;
+}
